@@ -127,9 +127,7 @@ function getRewriteRulesFromDB()
         $response['template_name'] = 'main';
     }
 
-    pr($response);
-
-    die;
+    return $response;
 }
 
 
